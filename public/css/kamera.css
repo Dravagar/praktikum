@@ -1,0 +1,130 @@
+body {
+  background: url("bg.png");
+  color: white;
+}
+
+.wadah {
+  max-width: 1080px;
+  margin: 20px auto;
+  background-color: #333333;
+  padding: 15px;
+  overflow: hidden;
+}
+
+header {
+  background-color: grey;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 7px;
+  font-size: 35px;
+}
+
+.navigasi ul {
+  list-style-type: none;
+  margin: auto;
+  padding: auto;
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navigasi ul li {
+  float: left;
+}
+.navigasi ul a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.navigasi ul a:hover {
+  background-color: red;
+  transition-duration: 2s;
+}
+
+.barang {
+  width: 75%;
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  background-color: #333333;
+  overflow: hidden;
+  text-align: center;
+}
+.barang h2 {
+  color: white;
+  border-bottom: 1px solid white;
+  margin: 5px;
+  margin-bottom: 13px;
+  text-align: center;
+}
+
+.list-produk {
+  border: 1px solid white;
+  padding: 5px;
+  float: right;
+  width: 220px;
+  margin: 5px;
+  height: auto;
+}
+
+.list-produk:hover {
+  transition-duration: 700ms;
+  box-shadow: 5px 5px white;
+}
+
+.list-produk img {
+  width: 100%;
+  height: 175px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.list-produk h4, .list-produk h5 {
+  color: white;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.tombol {
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 7px;
+  display: block;
+  float: left;
+  width: 30%;
+  margin: 4px;
+  text-align: center;
+  color: white;
+}
+
+.tombol:hover {
+  background-color: black;
+  transition-duration: 50ms;
+}
+
+.tombol-detail {
+  background-color: grey;
+}
+
+.tombol-beli {
+  background-color: grey;
+}
+
+footer {
+  clear: both;
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=kamera.css.map */
